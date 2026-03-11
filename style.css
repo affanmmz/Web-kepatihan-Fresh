@@ -30,7 +30,18 @@ header {
     top: 0;
     z-index: 1000;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+}
 
+.logo img {
+    height: 100px; /* Atur ukuran logo sesuai keinginan */
+    width: auto;
+    object-fit: contain;
+}
 nav {
     display: flex;
     justify-content: space-between;
